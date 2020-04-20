@@ -1,9 +1,9 @@
 h2 {
    color: blue;
    font-family: "Lucida Console", Monaco, monospace;
-   
 }
 
-body {
-    background-color: yellow;
+div {
+    border: 2px solid black;
+    background-color: lightgrey; 
 }
