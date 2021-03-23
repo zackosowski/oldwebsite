@@ -1,19 +1,29 @@
+@font-face{
+    font-family: "dimitri";
+    src: url(dimitri.tff);
+}
+
 body {
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
-    margin-top:-10px;
-    margin-bottom: 15px;
+.image-text {
+    margin-top: -65px;
     color: white;
     text-align: center;
+    font-size: xxx-large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "dimitri";
 }
 
 img {
     margin: -10px;
     padding: 0px;
     width: 110%;
-    height: auto;
+    height: 100px;
     align-content: center;
+    object-fit: cover;
 }
+
