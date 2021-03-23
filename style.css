@@ -1,6 +1,6 @@
 @font-face{
     font-family: "dimitri";
-    src: url(dimitri.tff);
+    src: url(dimitri.TFF);
 }
 
 body {
@@ -13,8 +13,6 @@ body {
     color: white;
     text-align: center;
     font-size: xxx-large;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     font-family: "dimitri";
 }
 
