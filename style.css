@@ -5,24 +5,27 @@
 
 body {
     background-color: black;
-    background-image: url(prism.png);
+    background-image: url(binding_dark.png);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .image-text {
-    margin-top: -80px;
+    margin-top: -220px;
     color: black;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 100px;
     font-family: "dimitri";
 }
 
 .header-image {
-    margin-left: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
     margin-top: 10px;
     padding: 0px;
-    width:70%;
-    height: 100px;
+    width:800px;
+    height: 300px;
     align-content: center;
     object-fit: cover;
 }
