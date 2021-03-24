@@ -86,6 +86,8 @@ body {
 
 .course:hover > .course-title {
     background-color:black;
+    background-image: url(Pictures/galaxy.jpg);
+    background-size: 100%;
     color: white;
 }
 
