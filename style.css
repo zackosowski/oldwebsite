@@ -3,18 +3,31 @@
     src: url(dimitri.TTF);
 }
 
+@font-face{
+    font-family: "dimitri-fill";
+    src: url(dimitri_fill.TTF);
+}
+
 body {
     background-color: black;
-    background-image: url(binding_dark.png);
+    background-image: url(country-quilt-dark.png);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .image-text {
-    margin-top: -220px;
+    margin-top: -182px;
     color: black;
     text-align: center;
     font-size: 100px;
     font-family: "dimitri";
+}
+
+.image-text-background { 
+    margin-top: -220px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: "dimitri-fill";
 }
 
 .header-image {
@@ -24,7 +37,7 @@ body {
     align-self: center;
     margin-top: 10px;
     padding: 0px;
-    width:800px;
+    width:1000px;
     height: 300px;
     align-content: center;
     object-fit: cover;
