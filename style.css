@@ -8,8 +8,13 @@
     src: url(Font/dimitri_fill.TTF);
 }
 
+@font-face{
+    font-family: "built titling";
+    src: url(Font/built\ titling\ rg.ttf);
+}
+
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "built titling";
 }
 
 body {
@@ -91,14 +96,30 @@ body {
     color: white;
 }
 
+.course:hover > img {
+    filter: blur(1px);
+    filter: brightness(0.1);
+    filter: contrast(1000%);
+    filter: grayscale(50%);
+    filter: hue-rotate(90deg);
+    filter: invert(75%);
+    filter: opacity(25%);
+    filter: blur(2px) saturate(30%);     
+}
+
+.course:hover{
+    background-color:black;
+}
+
 .course-title {
     margin-top: -45px;
-    margin-bottom:10;
-    padding-bottom: 5px;
+    margin-bottom:0px;
+    padding-bottom: 15px;
     padding-top: 5px;
-    height: 60px;
-    width: 310px;
-    margin-left: -45px;
+    height: 20px;
+    width: 320px;
+    margin-left: -50px;
+    font-size: 16px;
     text-align: center;
     vertical-align: middle;
     top: 50%;
@@ -108,9 +129,9 @@ body {
 
 .course-image {
     margin-bottom: 0px;
-    width: 310px;
+    width: 320px;
     height: 200px;
-    padding: 5px;
+    padding: 0px;
     margin: -50px;
     margin-top:-10px;
     object-fit: cover;
