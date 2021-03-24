@@ -8,18 +8,38 @@
     src: url(dimitri_fill.TTF);
 }
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: black;
     background-image: url(country-quilt-dark.png);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    margin-top: 50px;
+    padding: 0px;
+    width: 900px;
+    height: auto;
+    align-content: center;
+    object-fit: cover;
+    background-color: white;
+    padding: 50px;
+    
 }
 
 .image-text {
-    margin-top: -182px;
+    margin-top: -115px;
     color: black;
     text-align: center;
     font-size: 100px;
     font-family: "dimitri";
+    margin-bottom: 200px;
 }
 
 .image-text-background { 
@@ -42,4 +62,13 @@ body {
     align-content: center;
     object-fit: cover;
 }
+
+.post-title {
+    margin-top: -20px;
+}
+
+.post-body {
+    margin-bottom: 0px;
+}
+
 
