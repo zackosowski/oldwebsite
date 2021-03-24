@@ -34,7 +34,7 @@ body {
 }
 
 .image-text {
-    margin-top: -103px;
+    margin-top: -105px;
     color: black;
     text-align: center;
     font-size: 100px;
@@ -44,7 +44,7 @@ body {
 
 .image-text-background { 
     margin-top: -170px;
-    margin-left: -1px;
+    margin-left: -3px;
     text-align: center;
     font-size: 100px;
     color: white;
