@@ -1,144 +1,122 @@
-@font-face{
-    font-family: "dimitri";
-    src: url(Font/dimitri.TTF);
+@font-face {
+  font-family: "dimitri";
+  src: url(Font/dimitri.TTF);
 }
-
-@font-face{
-    font-family: "dimitri-fill";
-    src: url(Font/dimitri_fill.TTF);
+@font-face {
+  font-family: "dimitri-fill";
+  src: url(Font/dimitri_fill.TTF);
 }
-
-@font-face{
-    font-family: "built titling";
-    src: url(Font/built\ titling\ rg.ttf);
+@font-face {
+  font-family: "built titling";
+  src: url(Font/built\ titling\ rg.ttf);
 }
-
 html {
-    font-family: "built titling";
+  font-family: "built titling";
 }
-
 body {
-    background-color: black;
-    background-image: url(Pictures/country-quilt-dark.png);
+  background-color: black;
+  background-image: url(Pictures/country-quilt-dark.png);
 }
-
-
-
 .image-text {
-    margin-top: -105px;
-    color: black;
-    text-align: center;
-    font-size: 100px;
-    font-family: "dimitri";
-    margin-bottom: 10px;
+  margin-top: -105px;
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  font-family: "dimitri";
+  margin-bottom: 10px;
 }
-
-.image-text-background { 
-    margin-top: -160px;
-    margin-left: -3px;
-    text-align: center;
-    font-size: 100px;
-    color: white;
-    font-family: "dimitri-fill";
+.image-text-background {
+  margin-top: -160px;
+  margin-left: -3px;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "dimitri-fill";
 }
-
 .header-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    margin-top: 10px;
-    padding: 0px;
-    width:1000px;
-    height: 200px;
-    align-content: center;
-    object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  margin-top: 10px;
+  padding: 0px;
+  width: 100%;
+  height: 200px;
+  margin-bottom:10px;
+  align-content: center;
+  object-fit: cover;
 }
-
 .main-container {
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    align-content: center;
-    width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  align-content: center;
+  width: 60vw;
 }
-
 .course-container {
-    text-align: justify;
-    position: relative;
-    margin-top: 60px;
-    margin-bottom: -30px;
+  text-align: justify;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: -30px;
 }
 .course-container:after {
-    display:inline-block;
-    width:100%;
-    content:'';
+  display: inline-block;
+  width: 100%;
+  content: '';
 }
-
 .course {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-    padding: 0px;
-    width: 220px;
-    height: auto;
-    align-content: center;
-    object-fit: cover;
-    background-color: white;
-    padding: 50px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  width: 18vw;
+  height: auto;
+  align-content: center;
+  object-fit: cover;
+  background-color: white;
+	padding-top:0px;
 }
-
 .course:hover > .course-title {
-    background-color:black;
-    background-image: url(Pictures/galaxy.jpg);
-    background-size: 100%;
-    color: white;
+  background-color: black;
+  background-image: url(Pictures/galaxy.jpg);
+  background-size: 100%;
+  color: white;
 }
-
 .course:hover > img {
-    filter: blur(1px);
-    filter: brightness(0.1);
-    filter: contrast(1000%);
-    filter: grayscale(50%);
-    filter: hue-rotate(90deg);
-    filter: invert(75%);
-    filter: opacity(25%);
-    filter: blur(2px) saturate(30%);     
+  filter: blur(1px);
+  filter: brightness(0.1);
+  filter: contrast(1000%);
+  filter: grayscale(50%);
+  filter: hue-rotate(90deg);
+  filter: invert(75%);
+  filter: opacity(25%);
+  filter: blur(2px) saturate(30%);
 }
-
-.course:hover{
-    background-color:black;
+.course:hover {
+  background-color: black;
 }
-
-.course-title {
-    margin-top: -45px;
-    margin-bottom:0px;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    height: 20px;
-    width: 320px;
-    margin-left: -50px;
-    font-size: 16px;
-    text-align: center;
-    vertical-align: middle;
-    top: 50%;
-    word-wrap: normal;
-    color: black;
+.course-title{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 0vw;
+  height: 2.5vw;
+  width: 100%;
+  margin-left: 0px;
+  font-size: 1.7vw;
+  text-align: center;
+  vertical-align: middle;
+  word-wrap: normal;
+  color: black;
 }
-
 .course-image {
-    margin-bottom: 0px;
-    width: 320px;
-    height: 200px;
-    padding: 0px;
-    margin: -50px;
-    margin-top:-10px;
-    object-fit: cover;
+  margin-bottom: 0px;
+	width: 100%;
+  height: 15vh;
+  padding: 0px;
+  margin-top: -10px;
+  object-fit: cover;
 }
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
