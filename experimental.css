@@ -1,5 +1,35 @@
-div {
-	width:500px;
+.main-container {
+	width:70vw;
 	margin: auto;
+	background-color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	
+	border-radius: 10px;
+}
+
+.post-1:hover {
+	background-color: blue;
+}
+.post-2:hover {
+	background-color: yellow;
+}
+.post-3:hover {
+	background-color: red;
+}
+
+h1 {
+	color: white;
+	margin-top: 0;
+}
+
+p {
+color: white;
+}
+
+body {
+	background-image: url("Pictures/just-waves.png")
 }
 
